@@ -12,6 +12,8 @@ local Input = require(script.Parent.Input)
 
 local RunService = game:GetService("RunService")
 
+getgenv().rightNotePitches = {}
+getgenv().leftNotePitches = {}
 
 local function GetTimeLength(score)
     local length = 0
